@@ -5,9 +5,9 @@ import threading
 import os
 
 # Configuration depuis les variables d'environnement
-MUMBLE_HOST = os.getenv('MUMBLE_HOST', 'ton-serveur.mumble.com')
-MUMBLE_PORT = int(os.getenv('MUMBLE_PORT', 64738))
-BOT_NAME = os.getenv('BOT_NAME', 'AutoMuteBot')
+MUMBLE_HOST = os.getenv('MUMBLE_HOST', 'nocturniaffa.mumble.gg')
+MUMBLE_PORT = int(os.getenv('MUMBLE_PORT', 10009))
+BOT_NAME = os.getenv('BOT_NAME', 'ServerAdmin')
 BOT_PASSWORD = os.getenv('BOT_PASSWORD', '')
 MUTE_DURATION = int(os.getenv('MUTE_DURATION', 5))  # Durée en secondes
 
