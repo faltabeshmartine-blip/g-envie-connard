@@ -1,1 +1,1 @@
-pymumble-py3==1.1.0
+pymumble-py3
