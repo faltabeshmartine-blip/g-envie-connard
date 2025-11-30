@@ -1,5 +1,5 @@
-import pymumble_py3 as pymumble
-from pymumble_py3.callbacks import PYMUMBLE_CLBK_USERCREATED
+import pymumble
+from pymumble.callbacks import PYMUMBLE_CLBK_USERCREATED
 import time
 import threading
 import os
